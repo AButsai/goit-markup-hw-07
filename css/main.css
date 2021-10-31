@@ -295,7 +295,7 @@ body {
 }
 
 .team__item:last-child {
-  margin-right: 30px;
+  margin-right: 0;
 }
 
 .team__wrap {
