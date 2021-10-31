@@ -1,0 +1,24 @@
+.social__item {
+  margin-right: 10px;
+}
+
+.social__item:last-child {
+  margin-right: 0;
+}
+
+.social__link {
+  width: 44px;
+  height: 44px;
+  border: none;
+  border-radius: 50%;
+
+  transition: background-color $duration $timing-function;
+
+  &:hover {
+    background-color: $color-hover-focus;
+  }
+}
+
+.social__icon {
+  fill: currentColor;
+}

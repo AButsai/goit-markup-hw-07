@@ -1,0 +1,52 @@
+body {
+  font-family: $font-family-basic;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+
+  margin: 0;
+  padding: 0;
+
+  color: $color-white;
+  background-color: $color-white;
+}
+
+.section {
+  text-align: center;
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  margin-bottom: 50px;
+  color: $color-primary;
+}
