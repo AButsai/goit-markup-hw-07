@@ -15,8 +15,8 @@
   console.log(toggleModal);
 })();
 
-// const openBtn = document.querySelector('.button');
-// const closeBtn = document.querySelector('.close-btn');
+// const openBtn = document.querySelector('.btn');
+// const closeBtn = document.querySelector('.modal__close-btn');
 // const modal = document.querySelector('.backdrop');
 
 // const open = openBtn.addEventListener('click', toggle);
