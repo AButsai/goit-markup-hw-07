@@ -551,7 +551,11 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--bg-color);
+  color: #ffffff;
+}
+
+.section__team {
+  background-color: #f5f4fa;
 }
 
 .team__item {
@@ -593,10 +597,6 @@ body {
 
 .social__link--for-team:hover {
   color: #ffffff;
-}
-
-.section__team {
-  background-color: #f5f4fa;
 }
 
 .client__item {
