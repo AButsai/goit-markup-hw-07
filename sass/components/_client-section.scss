@@ -1,0 +1,31 @@
+.section__team {
+  background-color: $bg-color-section;
+}
+
+.client__item {
+  margin-right: 30px;
+}
+
+.client__item:last-child {
+  margin-right: 0;
+}
+
+.client__link {
+  width: 170px;
+  height: 92px;
+  border: 1px solid $border-client;
+  border-radius: 4px;
+  color: $border-client;
+
+  transition: border $duration $timing-function,
+    color $duration $timing-function;
+}
+
+.client__link:hover {
+  border: 1px solid $color-hover-focus;
+  color: $color-hover-focus;
+}
+
+.client__icon {
+  fill: currentColor;
+}
